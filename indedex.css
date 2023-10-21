@@ -112,7 +112,11 @@
   -moz-box-shadow: 0 20px 25px 0 #f538546a;
   -webkit-box-shadow: 0 20px 25px 0 #f538546a;
 }
-
+.main-block__button_red:hover {
+  background-color: #f53855;
+  color: #fff;
+  transition: 0.3s;
+}
 .header-servises-count {
   display: flex;
   justify-content: space-evenly;
