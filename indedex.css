@@ -50,6 +50,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.hamburger {
+  display: none;
+}
 
 .navbar__right-part h4 {
   color: #0b132a;
@@ -694,5 +697,121 @@ hr {
   }
   .footer__right-part li {
     font-size: 12px;
+  }
+}
+@media (max-width: 430px) {
+  * {
+    /* border: 1px solid black; */
+  }
+  .navbar {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hamburger {
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+
+  .navbar__middle-part {
+    display: none;
+  }
+  .navbar__right-part {
+    display: none;
+  }
+  .header-content__right-part img {
+    width: 300px;
+  }
+  .header-content {
+    flex-wrap: wrap;
+  }
+  .header-features {
+    flex-wrap: wrap;
+  }
+  .header-features__left-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-features__left-block img {
+    width: 300px;
+  }
+  .header-servises-count {
+    /* flex-wrap: wrap; */
+    height: 450px;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-block h4 {
+    width: 80%;
+  }
+  .main-map h4 {
+    width: 80%;
+  }
+  .main-coment h2 {
+    width: 80%;
+  }
+  .main-coment h4 {
+    width: 80%;
+  }
+  .action-block {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  .action-block h2 {
+    width: 200px;
+    font-size: 20px;
+  }
+  .footer {
+    display: none;
+  }
+  .main-block__card {
+    height: 550px;
+  }
+}
+@media (min-width: 320px) {
+  .main-coment__card {
+    width: 90%;
+    height: 300px;
+  }
+  .main-coment__card div {
+    width: 90%;
+  }
+  .main-coment__card > h4 {
+    width: 90%;
+  }
+  .main-coment__card-header > div {
+    width: 70%;
+  }
+
+  .main-coment__card-header img {
+    display: none;
+  }
+  .raiting {
+    width: 20%;
+  }
+  .slider-point {
+    display: none;
+  }
+  .slider-block {
+    align-items: center;
+    justify-content: center;
+  }
+  .main-map > h2 {
+    width: 90%;
+    font-size: 25px;
+  }
+  .header-content__right-part img {
+    width: 250px;
+  }
+  .header-features__left-block img {
+    width: 250px;
+  }
+  .hamburger {
+    width: 100px;
+    height: 50px;
   }
 }
